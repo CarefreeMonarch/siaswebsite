@@ -1,0 +1,37 @@
+.main{
+    width: 1000px;
+    height: 622px;
+    margin: 0 auto 20px auto;
+    background-image: url(../images/tfoot.jpg);
+    background-size: 100% 100%;
+    text-align: left;
+    position: relative;
+}
+.main form{
+    position: absolute;
+    top: 160px;
+    left:325px;
+}
+.main li{
+    margin-top: 8px;
+}
+textarea{
+    margin-left: 10px;
+    resize: none;
+    line-height: 20px;
+    text-indent: 2em;
+}
+#user,#phone,#mailbox{
+    height:30px;					
+    width:180px;					
+    border:#157782 1px solid;
+    text-indent: 1em;		
+    background-color:pink;		
+}
+#user:hover,#phone:hover,#mailbox:hover {
+    background-color:#FFF; 		
+}
+#btn{
+    margin-left: 200px;
+    text-align: center;
+}

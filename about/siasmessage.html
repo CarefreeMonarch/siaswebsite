@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西亚斯留言板</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/message.css">
+    <link rel="icon" sizes="any" mask="" href="../logo.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="content">
+                <div class="head-ri">
+                    <input type="text" class="text" onfocus="if(this.value=='请输入关键词'){this.value='';}"
+                        onblur="if(this.value==''){this.value='请输入关键词';}" value="请输入关键词">
+                    <i class="search"></i>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div id="menu">
+                <ul class="clearfu">
+                    <li><a href="../index.html"><span>首页</span></a></li>
+                    <li class="major">
+                        <a href="#">
+                            <span>专业院系</span>
+                        </a>
+                        <ul class="child">
+                            <li><a href="sxy.html">商学院</a></li>
+                            <li><a href="eiexy.html">电子信息工程学院</a></li>
+                            <li><a href="artxy.html">艺术设计学院</a></li>
+                            <li><a href="nursexy.html">护理学院</a></li>
+                            <li><a href="#">音乐戏剧学院</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="campusCulture.html"><span>校园文化</span></a></li>
+                    <li class="target"><a href="siasmessage.html"><span>西亚斯留言板</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <form action="">
+                <li>
+                    <label for="user">用户姓名:</label>
+                    <input type="text" name="username" id="user">
+                </li>
+                <li>
+                    <label for="psw1">用户手机:</label>
+                    <input type="text" name="phone" id="phone">
+                </li>
+                <li>
+                    <label for="psw2">电子邮箱:</label>
+                    <input type="text" name="mailbox" id="mailbox">
+                </li>
+                <li>
+                    <label>用户性别：</label>
+                    <input type="radio" name="rdoSex" value="0" checked>
+                    <img src="../images/male.jpg" width="21" height="22" alt="" />
+                    <input type="radio" name="rdoSex" value="1">
+                    <img src="../images/female.jpg" width="16" height="22" alt="" /></li>
+                <li>
+                    <label>个人爱好：</label>
+                    <input type="checkbox" value="sport" name="cbxHobby">运动
+                    <input type="checkbox" value="chat" name="cbxHobby">聊天
+                    <input type="checkbox" value="game" name="cbxHobby">游戏
+                </li>
+                <li>
+                    <label for="date">留言日期:</label>
+                    <input type="date" name="date" id="date" value="2020-12-23">
+                </li>
+                <li><img src="../images/read.gif" width="35" height="26" alt="" />请输入留言</li>
+                <li><textarea name="textarea" cols="60" rows="5"></textarea></li>
+                <li><button id="btn">提交</button></li>
+            </form>
+        </div>
+        <div class="bottom">
+            地址：河南省新郑市人民路东168号 招生电话：（0371）62606666 <br />
+            版权所有 © 2020 郑州西亚斯学院-商学院-电子商务二班-54号杨历鹏
+        </div>
+    </div>
+    <script src="../js/global.js"></script>
+</body>
+</html>

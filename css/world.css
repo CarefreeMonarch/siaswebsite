@@ -1,0 +1,254 @@
+.main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main{
+	width: 1232px;
+    zoom: 1;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+}
+.main .left{
+    width: 745px;
+    float: left;
+}
+.a01{ 
+    border:1px solid #dedede; 
+    width:743px;
+    margin-bottom: 10px;
+}
+.a01 .info{ 
+    background:#ffc000; 
+    height:37px; 
+    line-height:37px; 
+    zoom:1; 
+    overflow:hidden;
+    border-bottom:1px solid #dedede;
+}
+.a01 .title{ 
+    float:left; 
+    font-size:14px; 
+    color:#fff; 
+    font-weight:bold; 
+    padding-left:15px;
+}
+.a01 .more{ 
+    font-size:10px; 
+    float:right; 
+    padding-right:10px;
+}
+.a01 .more a{ 
+    color:#fff;
+}
+.a01 .more a:hover{ 
+    color:#fef200;
+}
+.a01 .content{ 
+    zoom:1; 
+    overflow:hidden;
+    width:743px; 
+    padding:5px 0px;
+}
+.a01 .content span.one{
+    line-height: 25px;
+    color: rgb(255, 41, 65);
+}
+.a01 .content span.two{
+    line-height: 25px;
+    color: rgb(165, 200, 255);
+}
+.a01 .content span.three{
+    line-height: 25px;
+    color:rgb(122, 79, 214);
+}
+.a01 .content span.four{
+    line-height: 25px;
+    color: rgb(123, 12, 0);
+}
+.a01 .content span.five{
+    line-height: 25px;
+    color:rgb(2, 30, 170);
+}
+.a01 .content p.six{
+    font-weight: bold;
+    text-indent: 2em;
+    color:rgb(255, 41, 65);
+}
+.a01 .content p.text{
+    padding:20px ;
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 25px;
+}
+ 
+.mnt01{ 
+    width:260px; 
+    float:left; 
+    padding-top:5px;
+}
+.culture{
+    width:260px; 
+    float:right; 
+    padding-top:5px;
+}
+.mnt01 img{
+    width: 256px;
+    height: 375px;
+}
+.nursetext img,
+.musictext img{
+    width: 256px;
+    height: 254px;
+}
+.a02{ 
+    border:1px solid #dedede; 
+    width:743px;
+}
+.a02 .info{ 
+    background:#ffc000; 
+    height:37px; 
+    line-height:37px; 
+    zoom:1; 
+    overflow:hidden;
+    border-bottom:1px solid #dedede;
+}
+.a02 .title{ 
+    float:left; 
+    font-size:14px; 
+    color:#fff; 
+    font-weight:bold; 
+    padding-left:15px;
+}
+.a02 .more{ 
+    font-size:10px; 
+    float:right; 
+    padding-right:10px;
+}
+.a02 .more a{ 
+    color:#fff;
+}
+.a02 .more a:hover{ 
+    color:#fef200;
+}
+.a02 .content{ 
+    zoom:1; 
+    overflow:hidden;
+    width:743px; 
+    padding:5px 0px;
+}
+.mnt03{ 
+    width:260px; 
+    float:left; 
+    margin:15px;
+}
+.mnt04{ 
+    width:430px; 
+    float:right; 
+    margin:5px 15px 15px 0px;
+}
+ /*news*/
+.bt02{ 
+    margin-top:15px;
+}
+.news1{ 
+    float:left; 
+    width:430px;  
+}
+.news1 li{ 
+    float:left; 
+    width:388px; 
+    height:30px;
+    line-height:30px; 
+    text-indent:2em; 
+    border-bottom:1px dashed #DEDEDE; 
+    font-size:12px; 
+    background:url(../images/a02.jpg) no-repeat left; 
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.news1 li a{
+    color:#333;
+}
+.news1 li a:hover{ 
+    color:#0268bf; 
+    text-decoration:underline;
+}
+.news1 li span{ 
+    float:right; 
+    font-size:11px; 
+    color:#969696;
+    margin-left: 5px; 
+}
+
+/* 右大块 */
+.main .right {
+    width: 400px;
+    float: right;
+} 
+.professional{
+    width:344px;
+    border:1px solid #f46c06;
+    margin-left: 50px; 
+    float:left; 
+}
+.professional .info{ 
+    background:url(../images/title1.jpg) no-repeat left;
+    height:37px; 
+    line-height:37px; 
+    zoom:1; 
+    overflow:hidden;
+    border-bottom:1px solid #dedede;
+}
+.professional .title{
+    float:left; 
+    font-size:14px; 
+    color:#0268bf; 
+    font-weight:bold; 
+    padding-left:30px;
+}
+.professional .more{ 
+    font-size:10px; 
+    float:right; 
+    padding-right:10px;
+}
+.professional .more a{ 
+    color:#989898;
+}
+.professional .more a:hover{ 
+    color:#0268bf;
+}
+.b02{ 
+    padding:8px 0px 8px 6px
+}
+.professional .content{ 
+    zoom:1; 
+    overflow:hidden; 
+    margin-left:10px; 
+    padding:6px 0px 13px 0px;
+}
+.ne1{ 
+    float:left; 
+    width:305px;  
+}
+.ne1 li{ 
+    float:left; 
+    width:305px; 
+    height:30px; 
+    line-height:30px; 
+    background: url(../images/bg02.jpg) no-repeat left;
+    border-bottom:1px dashed #DEDEDE; 
+    font-size:12px;  
+    white-space:nowrap;overflow:hidden;
+    text-overflow:ellipsis; 
+    padding-left:15px;
+    padding-top: 10px;
+}
+.ne1 li a{
+    color:#333;
+}
+.ne1 li a:hover{ 
+    color:#0268bf; 
+    text-decoration:underline;
+}

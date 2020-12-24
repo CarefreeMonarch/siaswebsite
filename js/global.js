@@ -31,13 +31,13 @@
 				window.open("../login.html", '_self');
 			break;
 			case '校园文化':
-				window.open("campusCulture.html", '_blank');
+				window.open("campusCulture.html", '_self');
 			break;
             case '商学院':
-				window.open("sxy.html", '_blank');
+				window.open("sxy.html", '_self');
 			break;
 			case '电子信息工程学院':
-				window.open("eiexy.html", '_blank');
+				window.open("eiexy.html", '_self');
 			break;
 			case '首页':
 				window.open("../index.html", '_self');
